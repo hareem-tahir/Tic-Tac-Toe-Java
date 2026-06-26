@@ -1,18 +1,18 @@
-# Tic-Tac-Toe-Java
-## 🎯 Features
-- 🎮 Player vs Computer mode
-- 👥 Player vs Player mode
-- 🧠 Basic AI (center, win-blocking, priority moves)
-- 🗳️ Toss system to decide first turn
-- 🚫 Input validation (names, moves, menu)
-- ❌ Exception handling (invalid input protection)
-- 💾 File handling (stores game results)
-- 🔁 Replay option after each game
-- 📊 View past match results
+**Tic-Tac-Toe-Java**
+**Features**
+- Player vs Computer mode
+- Player vs Player mode
+- Basic AI (center, win-blocking, priority moves)
+- Toss system to decide first turn
+- Input validation (names, moves, menu)
+- Exception handling (invalid input protection)
+- File handling (stores game results)
+- Replay option after each game
+- View past match results
 
 ---
 
-## 🧠 Concepts Used
+**Concepts Used**
 - Arrays (game board)
 - Loops (game flow control)
 - Conditionals (win/tie logic)
@@ -25,7 +25,8 @@
 
 ---
 
-## 🏗️ Game Flow
+**Game Flow**
+```
 Main Menu
 ├── Play Game
 │ ├── Choose Mode (PvP / PvC)
@@ -38,11 +39,11 @@ Main Menu
 │ └── Reads results from file
 │
 └── Exit
-
+```
 
 ---
 
-## 🤖 AI Logic (Computer Player)
+**AI Logic (Computer Player)**
 The computer follows this priority:
 1. Take center if available
 2. Try to win immediately
@@ -52,7 +53,7 @@ The computer follows this priority:
 
 ---
 
-## 💾 File Handling
+**File Handling**
 The game stores results in:
 tictactoe_results.txt
 
@@ -66,7 +67,7 @@ Winner of Game 3 is: Tie
 
 ---
 
-## 🚀 How to Run
+** How to Run**
 1. Compile the program:
 bash
 javac TicTacToe.java
